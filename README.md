@@ -11,6 +11,8 @@
 - Achieved a polished interface by incorporating smooth transitions and animations during profile navigation.
 
 
+#### Note: If the page does not load, please refresh the page.
+
 
 
 ## Available Scripts
@@ -29,5 +31,4 @@ You may also see any lint errors in the console.
 
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
 
