@@ -1,0 +1,8 @@
+.phoneNumber p {
+    font-style: italic;
+    font-size: .8rem;
+    margin: 0;
+    padding-top: 2px;
+    padding-bottom: 2PX;
+    margin-left: 15px;
+}
