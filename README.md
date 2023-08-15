@@ -3,13 +3,12 @@
 
 ### Key Features:
 - Implemented a user search functionality, enabling efficient user lookup.
-- Enhanced user experience with sliding cards that showcase individual profiles.
+- Enhanced user experience with horizontal sliding cards that showcase individual profiles.
 - Selecting a user card triggers an intuitive highlighting effect, drawing attention to the chosen card.
 - Clicking on a user card not only highlights it but also displays a distinctive blue box around the selected card.
 - Introduced a "Show All" button that offers a convenient way to view all profiles at once. This button becomes available when a particular profile is selected, allowing users to quickly access the entire collection of profiles.
 - Each card provides comprehensive information, including the user's name, profile picture, contact details, and address.
 - Achieved a polished interface by incorporating smooth transitions and animations during profile navigation.
-
 
 #### Note: If the page does not load, please refresh the page.
 
