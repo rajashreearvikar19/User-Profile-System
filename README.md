@@ -18,7 +18,7 @@
 To run the application locally, follow these steps:
 
 - Clone the repository to your local machine.
-- Install the dependencies using `npm install`.
+- ##### Install the dependencies using `npm install`.
 - Run the application using `npm start`.
 
 
