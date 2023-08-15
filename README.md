@@ -14,9 +14,13 @@
 
 
 
-## Available Scripts
+## Getting Started
+To run the application locally, follow these steps:
 
-In the project directory, you can run:
+- Clone the repository to your local machine.
+- Install the dependencies using `npm install`.
+- Run the application using `npm start`.
+
 
 ### `npm start`
 
