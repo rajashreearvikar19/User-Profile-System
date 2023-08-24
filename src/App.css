@@ -116,3 +116,8 @@
   margin-right: -100px;
   padding-top: 240px;
 }
+
+.cards-container.centered {
+  justify-content: center;
+  scroll-snap-type: x mandatory;
+}
