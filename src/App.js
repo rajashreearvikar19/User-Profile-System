@@ -11,7 +11,7 @@ function App() {
   const [activeProfile, setActiveProfile] = useState(null);
   const containerRef = useRef(null);
   const [searchValue, setSearchValue] = useState(""); 
-
+  
   useEffect(() => {
     (async () => {
       let userData;
@@ -23,9 +23,25 @@ function App() {
         userData = [];
       }
       setAllUsers(userData.results);
-      setUsers(userData.results);
+
+      // Check if an active profile is stored in local storage
+      const storedActiveProfile = localStorage.getItem("activeProfile");
+      if (storedActiveProfile) {
+        const parsedProfile = JSON.parse(storedActiveProfile);
+        setActiveProfile(parsedProfile);
+        setUsers([parsedProfile]);
+      } else {
+        setUsers(userData.results);
+      }
     })();
   }, []);
+
+  useEffect(() => {
+    // Store the active profile in local storage so on refresh that active profile reamin as it's
+    if (activeProfile) {
+      localStorage.setItem("activeProfile", JSON.stringify(activeProfile));
+    }
+  }, [activeProfile]);
 
   const filterCards = () => {
     if (activeProfile) {
